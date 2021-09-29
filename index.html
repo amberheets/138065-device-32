@@ -10,43 +10,34 @@
                  <a class="link_logo" href="index.html"><img class="logo" src="" alt="Logo Device"></a>
                     <section>
                         <nav class="navigation">
-                                <ul class="navigation-list">
-                                    <li class="navigation-item">
-                                            <label for="search"><a href="#">Поиск</a></label>
-                                            <input type="text" id="search" placeholder="Поиск по сайту">
-                                    </li>
-
-                                    <li class="navigation-item">
-                                        <a class="navigation-link" href="#"><img class="item-img" src="" alt="Вход">Войти</a>
-                                    </li>
-
-                                    <li class="navigation-item">
-                                        <a class="navigation-link" href="#"><img class="item-img" src="" alt="Сравнить">Сравнить</a>
-                                    </li>
-
-                                    <li class="navigation-item">
-                                        <a class="navigation-link" href="#"><img class="item-img" src="" alt="Корзина">Корзина</a>
-                                    </li>
-
-                                </ul>
-                         </nav>
+                            <ul class="navigation-list">
+                                <li class="navigation-item">
+                                    <label for="search"><a href="#">Поиск</a></label>
+                                    <input type="text" id="search" placeholder="Поиск по сайту">
+                                </li>
+                                <li class="navigation-item">
+                                    <a class="navigation-link" href="#"><img class="item-img" src="" alt="Вход">Войти</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a class="navigation-link" href="#"><img class="item-img" src="" alt="Сравнить">Сравнить</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a class="navigation-link" href="#"><img class="item-img" src="" alt="Корзина">Корзина</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </section>
                     <section class="navigation">
                          <ul class="navigation-list">
                               <li class="navigation-item">
-                                 <label>Каталог товаров
-                                     <input type="button" name="button" value="+">
-                                  </label>
+                                 <button class="nav-button" name="button">Каталог товаров</button>
                              </li>
-
                              <li class="navigation-item">
                                 <a class="navigation-link" href="#">Доставка</a>
                             </li>
-
                             <li class="navigation-item">
                                 <a class="navigation-link" href="#">Гарантия</a>
                             </li>
-
                             <li class="navigation-item">
                                 <a class="navigation-link" href="#">Контакты</a>
                             </li>
@@ -55,40 +46,119 @@
         </header>
         <main>
             <section class="slider">
-                <div class="card">
-                    <span class="card-number"></span>
-                </div>
-                    <img class="slider-img" src="" alt="Популярные товары">
-                    <h2 class="top-device">Порхает как бабочка, жалит как пчела!</h2>
-                    <p class="description-device">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-                    </p>
-                    <input type="button" name="button" value="Подробнее">
-                    <p>
-                        <span class="specifications">800 м</span>
-                        <span class="specifications">Дальность полета</span>
-                    </p>
-                    <p>
-                        <span class="specifications">50 м</span>
-                        <span class="specifications">Радиус поражения</span>
-                    </p>
-
-                    <button class="slider-button slider-prev" type="button">
-                        <span class="visually-hidden">Предыдущее фото</span>
-                    </button>
-                    <button class="slider-button slider-next" type="button">
-                        <span class="visually-hidden">Следующие фото</span>
-                    </button>
-                    <ol class="slider-pagination">
-                        <li>
-                            <button class="slider-button-paggination" type="button">1 слайдер</button>
-                        </li>
-                        <li>
-                            <button class="slider-button-paggination" type="button">2 слайдер</button>
-                        </li>
-                        <li>
-                            <button class="slider-button-paggination" type="button">3 слайдер</button>
-                        </li>
-                    </ol>
+                <article class="slider-item">
+                    <div class="card">
+                        <span class="card-number">01</span>
+                    </div>
+                        <img class="slider-img" src="" alt="Популярные товары">
+                        <h2 class="top-device">Порхает как бабочка, жалит как пчела!</h2>
+                        <p class="description-device">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+                        </p>
+                        <input type="button" name="button" value="Подробнее">
+                        <p>
+                            <span class="specifications">800 м</span>
+                            <span class="specifications">Дальность полета</span>
+                        </p>
+                        <p>
+                            <span class="specifications">50 м</span>
+                            <span class="specifications">Радиус поражения</span>
+                        </p>
+                        <button class="slider-button slider-prev" type="button">
+                            <span class="visually-hidden">Предыдущее фото</span>
+                        </button>
+                        <button class="slider-button slider-next" type="button">
+                            <span class="visually-hidden">Следующие фото</span>
+                        </button>
+                        <ol class="slider-pagination">
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">1 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio1">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">2 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio2">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">3 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio3">
+                            </li>
+                        </ol>
+                </article>
+                <article class="slider-item">
+                    <div class="card">
+                        <span class="card-number">02</span>
+                    </div>
+                        <img class="slider-img" src="" alt="Популярные товары">
+                        <h2 class="top-device">Худеем правильно!</h2>
+                        <p class="description-device">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+                        </p>
+                        <input type="button" name="button" value="Подробнее">
+                        <p>
+                            <span class="specifications">48 часов</span>
+                            <span class="specifications">Без подзарядки</span>
+                        </p>
+                        <button class="slider-button slider-prev" type="button">
+                            <span class="visually-hidden">Предыдущее фото</span>
+                        </button>
+                        <button class="slider-button slider-next" type="button">
+                            <span class="visually-hidden">Следующие фото</span>
+                        </button>
+                        <ol class="slider-pagination">
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">1 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio1">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">2 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio2">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">3 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio3">
+                            </li>
+                        </ol>
+                </article>
+                <article class="slider-item">
+                    <div class="card">
+                        <span class="card-number">03</span>
+                    </div>
+                        <img class="slider-img" src="" alt="Популярные товары">
+                        <h2 class="top-device">Делай селфи, как Бен Стиллер! </h2>
+                        <p class="description-device">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+                        <input type="button" name="button" value="Подробнее">
+                        <p>
+                            <span class="specifications">8,5 м</span>
+                            <span class="specifications">Длина палки</span>
+                        </p>
+                        <p>
+                            <span class="specifications">5 кг</span>
+                            <span class="specifications">Вес палки</span>
+                        </p>
+                        <p>
+                            <span class="specifications">Карбон</span>
+                            <span class="specifications">Материал</span>
+                        </p>
+                        <button class="slider-button slider-prev" type="button">
+                            <span class="visually-hidden">Предыдущее фото</span>
+                        </button>
+                        <button class="slider-button slider-next" type="button">
+                            <span class="visually-hidden">Следующие фото</span>
+                        </button>
+                        <ol class="slider-pagination">
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">1 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio1">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">2 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio2">
+                            </li>
+                            <li>
+                                <!--<button class="slider-button-paggination" type="button">3 слайдер</button>-->
+                                <input type="radio" name="slider-radio" value="radio3">
+                            </li>
+                        </ol>
+                </article>
             </section>
             <section class="categories">
                 <ul class="categories-list">
@@ -127,21 +197,20 @@
                 </ul>
             </section>
             <section class="advantage">
-                <ul class="advantage-list">
-                    <li class="advantage-item">
-                        <input class="advantage-button" type="button" value="Доставка">
+               <article class="advantage-item">
+                    <input class="advantage-button" type="button" value="Доставка">
                         <div class="description-advantage">
                             <h2>Доставка</h2>
-                            <p>
+                             <p>
                                 Мы с удовольствием доставим ваш товар прямо
                                 к вашему подъезду совершенно бесплатно! Ведь
                                 мы неплохо заработаем, поднимая его на ваш этаж.
                             </p>
                             <img class="advantage-img" src="" alt="Курьер">
                         </div>
-                    </li> 
-                    <li>
-                        <input class="advantage-button" type="button" value="Гарантия">
+                </article>
+                <article>
+                    <input class="advantage-button" type="button" value="Гарантия">
                         <div class="description-advantage">
                             <h2>Гарантия</h2>
                             <p>
@@ -151,9 +220,9 @@
                             </p>
                             <img class="advantage-img" src="" alt="Гарантия">
                         </div>
-                    </li>
-                    <li>
-                        <input class="advantage-button" type="button" value="Кредит">
+                </article>
+                <article>
+                    <input class="advantage-button" type="button" value="Кредит">
                         <div class="description-advantage">
                             <h2>Кредит</h2>
                             <p>
@@ -163,18 +232,14 @@
                             </p>
                             <img class="advantage-img" src="" alt="Кредит">
                         </div>
-                    </li>
-                </ul>
-              </section>
+                </article>
+            </section>
               <section class="about">
-                  <div class="delivery">
                     <button class="delivery-button">
                         <img class="delivery-logo" src="" alt="Доставка Лого">
                         Доставим редкий товар под заказ
                         <span title="">i</span>
                     </button>
-                  </div>
-
                   <h2 class="about-head">О нас</h2>
                   <p class="about-description">
                     Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
@@ -214,7 +279,6 @@
                         сб—вс: с 10:00 до 19:00
                       </li>
                   </ul>
-
                   <a class="contact-link" href="#">Напишите нам</a>
               </section>
               <form action="https://echo.htmlacademy.ru/" method="GET">
@@ -250,13 +314,13 @@
                 <nav class="navi-footer-social">
                     <ul class="footer-social-list">
                         <li class="footer-social-item">
-                            <a class="footer-social-link" href="https://facebook.com"><img class="social-logo" src="" alt="Facebook"></a>
+                            <a class="footer-social-link" target="_blank" href="https://facebook.com"><img class="social-logo" src="" alt="Facebook"></a>
                         </li>
                         <li class="footer-social-item">
-                            <a class="footer-social-link" href="https://instagram.com"><img class="social-logo" src="" alt="Instagram"></a>
+                            <a class="footer-social-link" target="_blank" href="https://instagram.com"><img class="social-logo" src="" alt="Instagram"></a>
                         </li>
                         <li class="footer-social-item">
-                            <a class="footer-social-link" href="https://twitter.com"><img class="social-logo" src="" alt="Twitter"></a>
+                            <a class="footer-social-link" target="_blank" href="https://twitter.com"><img class="social-logo" src="" alt="Twitter"></a>
                         </li>
                     </ul>
                 </nav>
