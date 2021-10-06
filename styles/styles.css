@@ -1,0 +1,585 @@
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/rubik/rubik-800.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+body{
+    font-family: "Raleway";
+}
+/***********Header**************/
+.page-header{
+    width: 1160px;
+    height: 300px;
+    background-color: #ffe17f;
+}
+
+.form-text{
+    background: none;
+    border: none;
+}
+
+.form-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation-item-profile,
+.navigation-item{
+    list-style-type: none;
+}
+
+.navigation-link-profile{
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-button{
+    background: none;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+}
+/*************************/
+/***********Main**************/
+.card-number{
+    font-family: "Rubik";
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 30px;
+    color: white;
+}
+
+.top-device{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.description-device{
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.specifications{
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 30px;
+    color: black;
+
+}
+
+.specifications-description{
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.detail-button{
+    width: 220px;
+    height: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFE17F;
+    border: none;
+}
+
+.slider-list-paggination{
+    list-style-type: none;
+}
+
+.categories-item{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.categories-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.categories-img{
+    width: 160px;
+    height: 160px;
+    background-color: #ffe17f;
+}
+
+.advantage-item{
+    background-color: #F0F0F0;
+    width: 1440px;
+    height: 288px;
+}
+
+.advantage-heading{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    color:black;
+}
+
+.advantage-heading-description{
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.advantage-button{
+    width: 160px;
+    height: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFE17F;
+    border: none;
+}
+
+.active{
+    background-color: black;
+    color: #ffe17f;
+}
+
+.delivery-button{
+    width: 1160px;
+    height: 100px;
+    display: flex;
+    line-height: 100px;
+    justify-content: space-between;
+}
+
+.delivery-logo{
+    background:#ffe17f;
+}
+
+.delivery-text{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.title-container{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 50%;
+    display: block;
+}
+
+.about-head{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.about-description{
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #444444;
+}
+
+.about-item{
+    color: #FFC700;
+}
+
+.company{
+    color: black;
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.about-link{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFE17F;
+    text-decoration: none;
+}
+
+.contact-head{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.contact-description{
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #444444;
+}
+
+.contact-head-device{
+    font-weight: 800;
+    font-size: 24x;
+    line-height: 30px;
+    color: #444444;
+}
+
+.about-adress{
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #444444;
+}
+
+.tel-device{
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.contact-head-time{
+    font-family: "Rubik";
+    font-size: 24px;
+    line-height: 30px;
+    color:#444444;
+}
+
+.contact-time-list{
+    list-style-type: none;
+}
+
+.time-work{
+    color: #444444;
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact-link{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFE17F;
+    text-decoration: none;
+}
+
+.emailing{
+    background:#F0F0F0;
+}
+
+.heading-email{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.text-email{
+    background: none;
+    border: none;
+}
+
+.button-email{
+    border: 3px solid lightgray;
+    width: 260px;
+    height: 55px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.email-description{
+    color: #444444;
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 30px;
+}
+/***********Footer**************/
+.footer{
+    background-color: #444444;
+
+}
+
+.footer-item{
+    list-style-type: none;
+}
+
+.footer-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.footer-adress{
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.footer-social-item{
+    list-style-type: none;
+}
+
+.footer-tel{
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 30px;
+}
+/*************************/
+/***********Catalog**************/
+.heading-catalog{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.bread-item{
+    list-style: none;
+}
+
+.bread-link{
+    font-family: "Rubik";
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    opacity: 0.6;
+}
+
+.filter{
+    background-color: #E5E5E5;
+}
+
+.heading-filter{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.filter-price-item{
+    font-family: "Rubik";
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.min-price,
+.max-price{
+    width: 18px;
+    height: 18px;
+    background: #EBEBEB;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.min-enter-price,
+.max-enter-price{
+    font-family: Rubik;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+.filter-color-check{
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    list-style: none;
+}
+
+.filter-color-box{  
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px; 
+    width: 20px;
+    height: 20px;
+    background: #EBEBEB;
+    opacity: .3;
+}
+
+.filter-color-box:checked{  
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px; 
+    width: 20px;
+    height: 20px;
+}
+
+.filter-bluetooth-check{
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.filter-button{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFE17F;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.heading-sort{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.sorting-list{
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.product-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.product-price{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 21px;
+    color: #444444;
+}
+
+.product-new{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+} 
+
+.product-item{
+    list-style: none;
+}
+
+.product-button{
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 760px;
+    height: 55px;
+    opacity: 0.1;
+}
+
+.product-button-text{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pagination{
+    background-color: #EBEBEB;
+    width: 760px;
+    height: 70px;
+}
+
+.pagination-item{
+    list-style: none;
+}
+
+.pagination-link-direction{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.pagination-link{
+    font-family: "Rubik";
+    text-decoration: none;
+    color: #444444;
+    opacity: 0.3;
+    font-size: 16px;
+    line-height: 19px;
+}
