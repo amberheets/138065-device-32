@@ -9,7 +9,9 @@
         <header class="page-header-catalog">
             <h1 class="visually-hidden">Device</h1>
                 <section class="navigation-profile">
-                    <a class="link_logo" href="index.html"><img class="logo" src="img/logo/logo-device.svg" width="145" height="36" alt="Logo Device"></a>
+                    <a class="link_logo" href="index.html">
+                        <img class="logo" src="img/logo/logo-device.svg" width="145" height="36" alt="Logo Device">
+                    </a>
                     <nav class="navigation-container">
                         <ul class="navigation-list-profile">
                             <li class="navigation-item-profile">
@@ -19,14 +21,14 @@
                                 </form>
                             </li>
                             <li class="navigation-item-profile">
-                                <a class="navigation-link-profile" href="#"><img class="item-img" src="" alt="Мой профиль">Коля Петухов</a>
-                                <a class="navigation-link-profile" href="#">Выйти</a>
+                                <a class="navigation-link-profile" href="#"><svg class="navigation-icon-profile" width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12h13a6.3 6.3 0 0 0-4.7-5.5c1-.6 1.7-1.7 1.7-3C10 1.6 8.4 0 6.5 0A3.5 3.5 0 0 0 3 3.5c0 1.3.7 2.4 1.7 3A6.3 6.3 0 0 0 0 12Z" fill="#000"/></svg><div class="navigation-link-user">Коля Петухов<a class="navigation-link-profile" href="#">Выйти</a></div></a>
+                                
                             </li>
                             <li class="navigation-item-profile">
-                                <a class="navigation-link-profile" href="#"><img class="item-img" src="" alt="Сравнить">Сравнить</a>
+                                <a class="navigation-link-profile" href="#"><svg class="navigation-icon-profile"  width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 0H4v12h2V0ZM2 4H0v8h2V4ZM10 3H8v9h2V3Z" fill="#000"/></svg><div class="navigation-link-compare">Сравнить</div></a>
                             </li>
                             <li class="navigation-item-profile">
-                                <a class="navigation-link-profile" href="#"><span class="number">2</span><img class="item-img" src="" alt="Корзина">Корзина</a>
+                                <a class="navigation-link-profile" href="#"><svg class="navigation-icon-profile"  width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m15.3 5-3.5.2L8.6.3C8.5.1 8.2 0 8 0c-.2 0-.5.1-.6.3L4.2 5.2H.7c-.4 0-.7.3-.7.7v.2l1.9 6.8c.2.7.7 1.1 1.4 1.1h9.4c.7 0 1.2-.4 1.4-1.1L16 6v-.2c0-.4-.3-.8-.7-.8ZM8 1.9l2.2 3.2H5.9L8 1.9Z" fill="#000"/></svg><div class="navigation-link-cart">Корзина</div></a>
                             </li>
                         </ul>
                     </nav>
@@ -34,7 +36,7 @@
                     <ul class="navigation-list">
                         <li class="navigation-item">
                             <button class="nav-button" name="button">Каталог товаров</button>
-                            <button class="catalog-button">+</button>
+                            <button class="catalog-button"><img class="plus" src="img/plus.svg" alt="Каталог товаров"></button>
                         </li>
                         <li class="navigation-item">
                             <a class="navigation-link" href="#">Доставка</a>
@@ -57,72 +59,103 @@
                         <a class="bread-link" href="#">Главная</a>
                     </li>
                     <li class="bread-item">
-                        <img class="bread-img" src="" alt="Переход по ссылке">
+                        <img class="bread-img" src="img/nav-arrow.svg" alt="Переход по ссылке">
                         <a class="bread-link" href="#">Каталог товаров</a>
                     </li>
                     <li class="bread-item">
-                        <img class="bread-img" src="" alt="Переход по ссылке">
+                        <img class="bread-img" src="img/nav-arrow.svg" alt="Переход по ссылке">
                         <a class="bread-link" href="#">Моноподы для селфи</a>
                     </li>
                 </ul>
             </header>
             <div class="catalog">
                 <section class="filter">
-                    <h2 class="heading-filter">Фильтр:</h2>
-                    <form action="https://echo.htmlacademy.ru/" method="GET">
-                        <fieldset class="filter-price">
-                            <legend class="filter-price-item">Стоимость</legend>
-                            <button class="min-price" type="button">Изменить минимальную цену</button>
-                            <button class="max-price" type="button">Изменить максимальную цену</button>
-                            <label class="min-enter-price">от<input class="min-enter-price" type="number"></label> 
-                            <label class="max-enter-price">до<input class="max-enter-price" type="number"></label> 
-                        </fieldset>
-                        <fieldset class="filter-color">
-                            <legend class="filter-color-item">Цвет</legend>
-                            <ul class="filter-color-list">
-                                <li class="filter-color-check">
-                                    <label class="filter-color-name"> 
-                                        <input class="filter-color-box" type="checkbox" name="black" checked>
-                                        Черный
-                                    </label>
-                                </li>
-                                <li class="filter-color-check">
-                                    <label class="filter-color-name"> 
-                                        <input class="filter-color-box" type="checkbox" name="white" checked>
-                                        Белый
-                                    </label>
-                                </li>
-                                <li class="filter-color-check">
-                                    <label class="filter-color-name">
-                                        <input class="filter-color-box" type="checkbox" name="blue"> 
-                                        Синий
-                                    </label>
-                                </li>
-                                <li class="filter-color-check">
-                                    <label class="filter-color-name">
-                                        <input class="filter-color-box" type="checkbox" name="red">
-                                        Красный
-                                    </label>
-                                </li>
-                                <li class="filter-color-check">
-                                    <label class="filter-color-name">
-                                        <input class="filter-color-box" type="checkbox" name="pink">
-                                        Розовый
-                                    </label>
-                                </li>
-                            </ul>
-                        </fieldset>
-                    <fieldset class="filter-bluetooth">
-                        <legend class="filter-bluetooth-name">Bluetooth</legend>
-                        <label class="filter-bluetooth-check"> Есть
-                            <input class="filter-bluetooth-item" type="radio" name="bluetooth" value="Yes">
-                        </label>
-                        <label class="filter-bluetooth-check"> Нет
-                            <input class="filter-bluetooth-item" type="radio" name="bluetooth" value="No">
-                        </label>
-                        </fieldset>
-                        <input class="filter-button" type="submit" value="Показать">
-                    </form>
+                    <div class="filter-block">
+                        <div class="filter-block-header">
+                            <h2 class="heading-filter">Фильтр:</h2>
+                        </div>
+                        <div class="filter-action">
+                            <form action="https://echo.htmlacademy.ru/" method="GET">
+                            <fieldset class="filter-price">
+                                <legend class="filter-price-item">Стоимость</legend>
+                                <div class="range">
+                                    <div class="range-scale">
+                                        <div class="range-bar" style="left: auto; width: 119px">
+                                            <button class="range-toggle toggle-min">
+                                                <span class="visually-hidden">Изменить минимальную цену.</span>
+                                            </button>
+                                            <button class="range-toggle toggle-max">
+                                                <span class="visually-hidden">Изменить максимальную цену.</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="range-wrapper-inputs">
+                                        <label class="catalog-filter-label">
+                                            от <input class="range-input" type="number" value="0" name="min-price">
+                                        </label>
+                                        <label class="catalog-filter-label">
+                                            до <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="filter-color">
+                                <legend class="filter-color-item">Цвет</legend>
+                                <ul class="filter-color-list">
+                                    <li class="filter-color-check">
+                                        <label class="filter-color-name"> 
+                                            <input class="visually-hidden filter-color-box" type="checkbox" name="black" checked>
+                                            <span class="control-mark"></span>
+                                            <span class="control-label">Черный</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-color-check">
+                                        <label class="filter-color-name"> 
+                                            <input class="visually-hidden filter-color-box" type="checkbox" name="white" checked>
+                                            <span class="control-mark"></span>
+                                            <span class="control-label">Белый</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-color-check">
+                                        <label class="filter-color-name">
+                                            <input class="visually-hidden filter-color-box" type="checkbox" name="blue"> 
+                                            <span class="control-mark"></span>
+                                            <span class="control-label">Синий</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-color-check">
+                                        <label class="filter-color-name">
+                                            <input class="visually-hidden filter-color-box" type="checkbox" name="red">
+                                            <span class="control-mark"></span>
+                                            <span class="control-label">Красный</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-color-check">
+                                        <label class="filter-color-name">
+                                            <input class="visually-hidden filter-color-box" type="checkbox" name="pink">
+                                            <span class="control-mark"></span>
+                                            <span class="control-label">Розовый</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <fieldset class="filter-bluetooth">
+                                <legend class="filter-bluetooth-name">Bluetooth</legend>
+                                <label class="filter-bluetooth-check">
+                                    <input class="filter-bluetooth-item visually-hidden" type="radio" name="bluetooth" value="Yes" checked>
+                                    <span class="control-mark"></span>
+                                    <span class="control-label">Есть</span>
+                                </label>
+                                <label class="filter-bluetooth-check">
+                                    <input class="filter-bluetooth-item visually-hidden" type="radio" name="bluetooth" value="No">
+                                    <span class="control-mark"></span>
+                                    <span class="control-label">Нет</span>
+                                </label>
+                                </fieldset>
+                                <input class="filter-button" type="submit" value="Показать">
+                            </form>
+                        </div>
+                    </div>
                 </section>
                 <div class="catalog-right-column">
                     <section class="sorting">
@@ -133,8 +166,8 @@
                             <option value="expensive">Сначала дорогие</option>
                         </select>
                         <div class="button-sorting">
-                            <button class="sort-button"><img class="sort-img" src="" alt="Вверх!"></button>
-                            <button class="sort-button"><img class="sort-img" src="" alt="Вниз!"></button>
+                            <button class="sort-button"><img class="sort-img" src="img/sort-up.svg" alt="Вверх!"></button>
+                            <button class="sort-button"><img class="sort-img" src="img/sort-down.svg" alt="Вниз!"></button>
                         </div>
                     </section>
                     <section class="product">
