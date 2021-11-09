@@ -28,11 +28,43 @@
                         </li>
                         <li class="navigation-item-profile">
                             <a class="navigation-link-profile" href="#"><svg class="navigation-icon-profile"  width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m15.3 5-3.5.2L8.6.3C8.5.1 8.2 0 8 0c-.2 0-.5.1-.6.3L4.2 5.2H.7c-.4 0-.7.3-.7.7v.2l1.9 6.8c.2.7.7 1.1 1.4 1.1h9.4c.7 0 1.2-.4 1.4-1.1L16 6v-.2c0-.4-.3-.8-.7-.8ZM8 1.9l2.2 3.2H5.9L8 1.9Z" fill="#000"/></svg><div class="navigation-link-cart">Корзина</div></a>
-                            <div class="popover popover-cart">
+                            <div class="popover popover-cart ">
 
                                 <div class="popover-content">
-                                    
+                                    <svg class="popover-triangle" width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 6H0L7 0L14 6Z" fill="black"/>
+                                    </svg>                                        
+                                    <ul class="popover-list">
+                                        <li class="popover-item">
+                                            <div class="cart-buy-item">
+                                                <img class="popover-cart-img" src="img/product/product-1.png" alt="Выбраный товар">
+                                                <span class="popover-cart-desc">Любительская селфи-палка</span>
+                                                <button class="popover-cart-delete">
+                                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m11 1-1-1-4.5 4.5L1 0 0 1l4.5 4.5L0 10l1 1 4.5-4.5L10 11l1-1-4.5-4.5L11 1Z" fill="#fff"/></svg>
+                                                    <span class="visually-hidden">Удалить из карзины</span>
+                                                </button>
+                                            </div>
+                                        </li>
+                                        <li class="popover-item">
+                                            <div class="cart-buy-item">
+                                                    <img class="popover-cart-img" src="img/product/product-2.png" alt="Выбраный товар">
+                                                    <span class="popover-cart-desc">Профессиональная селфи-палка</span>
+                                                <button class="popover-cart-delete">
+                                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m11 1-1-1-4.5 4.5L1 0 0 1l4.5 4.5L0 10l1 1 4.5-4.5L10 11l1-1-4.5-4.5L11 1Z" fill="#fff"/></svg>
+                                                    <span class="visually-hidden">Удалить из карзины</span>
+                                                </button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="popover-content-desc">
+                                        <p class="title-counter">Товаров: <span class="popover-item-counter">2</span></p>
+                                        <p class="title-counter">Сумма: <span class="popover-price-counter">2000</span>₽</p>
+                                    </div>
                                 </div>
+                                <button class="popover-open-cart-button">
+                                    <span class="open-cart-title">Открыть корзину</span>
+                                </button>
+
                             </div>
                         </li>
                     </ul>
